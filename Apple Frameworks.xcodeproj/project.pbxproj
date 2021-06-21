@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		95D809392681035500F34532 /* FrameworkDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95D809382681035500F34532 /* FrameworkDetailView.swift */; };
 		95EE8B97268096AC00F4A53B /* Apple_FrameworksApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95EE8B96268096AC00F4A53B /* Apple_FrameworksApp.swift */; };
 		95EE8B9B268096AD00F4A53B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 95EE8B9A268096AD00F4A53B /* Assets.xcassets */; };
 		95EE8B9E268096AD00F4A53B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 95EE8B9D268096AD00F4A53B /* Preview Assets.xcassets */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		95D809382681035500F34532 /* FrameworkDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameworkDetailView.swift; sourceTree = "<group>"; };
 		95EE8B93268096AC00F4A53B /* Apple Frameworks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Apple Frameworks.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		95EE8B96268096AC00F4A53B /* Apple_FrameworksApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Apple_FrameworksApp.swift; sourceTree = "<group>"; };
 		95EE8B9A268096AD00F4A53B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -55,6 +57,7 @@
 			isa = PBXGroup;
 			children = (
 				95EE8B96268096AC00F4A53B /* Apple_FrameworksApp.swift */,
+				95D809382681035500F34532 /* FrameworkDetailView.swift */,
 				95EE8BA72680980900F4A53B /* FrameworkGridView.swift */,
 				95EE8BA52680971000F4A53B /* Framework.swift */,
 				95EE8B9A268096AD00F4A53B /* Assets.xcassets */,
@@ -141,6 +144,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				95D809392681035500F34532 /* FrameworkDetailView.swift in Sources */,
 				95EE8BA82680980900F4A53B /* FrameworkGridView.swift in Sources */,
 				95EE8BA62680971000F4A53B /* Framework.swift in Sources */,
 				95EE8B97268096AC00F4A53B /* Apple_FrameworksApp.swift in Sources */,
