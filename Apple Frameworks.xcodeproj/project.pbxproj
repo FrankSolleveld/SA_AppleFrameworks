@@ -11,6 +11,7 @@
 		95EE8B99268096AC00F4A53B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95EE8B98268096AC00F4A53B /* ContentView.swift */; };
 		95EE8B9B268096AD00F4A53B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 95EE8B9A268096AD00F4A53B /* Assets.xcassets */; };
 		95EE8B9E268096AD00F4A53B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 95EE8B9D268096AD00F4A53B /* Preview Assets.xcassets */; };
+		95EE8BA62680971000F4A53B /* Framework.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95EE8BA52680971000F4A53B /* Framework.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		95EE8B9A268096AD00F4A53B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		95EE8B9D268096AD00F4A53B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		95EE8B9F268096AD00F4A53B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		95EE8BA52680971000F4A53B /* Framework.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Framework.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 			children = (
 				95EE8B96268096AC00F4A53B /* Apple_FrameworksApp.swift */,
 				95EE8B98268096AC00F4A53B /* ContentView.swift */,
+				95EE8BA52680971000F4A53B /* Framework.swift */,
 				95EE8B9A268096AD00F4A53B /* Assets.xcassets */,
 				95EE8B9F268096AD00F4A53B /* Info.plist */,
 				95EE8B9C268096AD00F4A53B /* Preview Content */,
@@ -139,6 +142,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				95EE8B99268096AC00F4A53B /* ContentView.swift in Sources */,
+				95EE8BA62680971000F4A53B /* Framework.swift in Sources */,
 				95EE8B97268096AC00F4A53B /* Apple_FrameworksApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
