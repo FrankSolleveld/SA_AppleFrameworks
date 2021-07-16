@@ -13,7 +13,6 @@ struct FrameworkDetailView: View {
 	@State private var isShowingSafariView = false
     var body: some View {
         VStack {
-			Spacer()
             FrameworkTitleView(framework: framework)
             Text(framework.description)
                 .font(.body)
@@ -24,6 +23,7 @@ struct FrameworkDetailView: View {
             } label: {
                 AFButton(title: "Learn More")
             }
+			.padding(.bottom, 10)
         }
 		.sheet(isPresented: $isShowingSafariView) {
 			SafariView(url: URL(string: framework.urlString) ?? URL(string: "https://devfrank.org")!)
