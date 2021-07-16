@@ -13,19 +13,8 @@ struct FrameworkDetailView: View {
 	@State private var isShowingSafariView = false
     var body: some View {
         VStack {
-            HStack {
-                Spacer()
-                Button {
-					isShowingDetailView = false
-                } label: {
-                    Image(systemName: "xmark")
-                        .foregroundColor(Color(.label))
-                        .imageScale(.large)
-                        .frame(width: 44, height: 44)
-                }
-            }
-            .padding()
-            Spacer()
+			XDismissButton(isShowingDetailView: $isShowingDetailView)
+			Spacer()
             FrameworkTitleView(framework: framework)
             Text(framework.description)
                 .font(.body)
