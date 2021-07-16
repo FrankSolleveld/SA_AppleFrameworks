@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9561753F26A17E0F0063032F /* FrameworkGridViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9561753E26A17E0F0063032F /* FrameworkGridViewModel.swift */; };
 		95D809392681035500F34532 /* FrameworkDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95D809382681035500F34532 /* FrameworkDetailView.swift */; };
 		95D8093B2681051500F34532 /* AFButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95D8093A2681051500F34532 /* AFButton.swift */; };
 		95EE8B97268096AC00F4A53B /* Apple_FrameworksApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95EE8B96268096AC00F4A53B /* Apple_FrameworksApp.swift */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9561753E26A17E0F0063032F /* FrameworkGridViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameworkGridViewModel.swift; sourceTree = "<group>"; };
 		95D809382681035500F34532 /* FrameworkDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameworkDetailView.swift; sourceTree = "<group>"; };
 		95D8093A2681051500F34532 /* AFButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AFButton.swift; sourceTree = "<group>"; };
 		95EE8B93268096AC00F4A53B /* Apple Frameworks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Apple Frameworks.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -59,6 +61,7 @@
 			isa = PBXGroup;
 			children = (
 				95EE8B96268096AC00F4A53B /* Apple_FrameworksApp.swift */,
+				9561753E26A17E0F0063032F /* FrameworkGridViewModel.swift */,
 				95EE8BA72680980900F4A53B /* FrameworkGridView.swift */,
 				95D809382681035500F34532 /* FrameworkDetailView.swift */,
 				95EE8BA52680971000F4A53B /* Framework.swift */,
@@ -152,6 +155,7 @@
 				95EE8BA62680971000F4A53B /* Framework.swift in Sources */,
 				95D8093B2681051500F34532 /* AFButton.swift in Sources */,
 				95EE8B97268096AC00F4A53B /* Apple_FrameworksApp.swift in Sources */,
+				9561753F26A17E0F0063032F /* FrameworkGridViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -281,10 +285,10 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"Apple Frameworks/Preview Content\"";
-				DEVELOPMENT_TEAM = 2BRJ7L3SUQ;
+				DEVELOPMENT_TEAM = 8S8EJS2M66;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = "Apple Frameworks/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.7;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -303,10 +307,10 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"Apple Frameworks/Preview Content\"";
-				DEVELOPMENT_TEAM = 2BRJ7L3SUQ;
+				DEVELOPMENT_TEAM = 8S8EJS2M66;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = "Apple Frameworks/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.7;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
