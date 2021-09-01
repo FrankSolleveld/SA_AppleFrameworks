@@ -19,16 +19,12 @@ struct FrameworkDetailView: View {
                 .font(.body)
                 .padding()
             Spacer()
-            Button {
-                viewModel.isShowingSafariView = true
-            } label: {
+
+            Link(destination: URL(string: viewModel.framework.urlString) ?? URL(string: "https://devfrank.org")!) {
                 AFButton(title: "Learn More")
+                    .padding(.bottom, 10)
             }
-			.padding(.bottom, 10)
         }
-        .sheet(isPresented: $viewModel.isShowingSafariView) {
-            SafariView(url: URL(string: viewModel.framework.urlString) ?? URL(string: "https://devfrank.org")!)
-		}
     }
 }
 
