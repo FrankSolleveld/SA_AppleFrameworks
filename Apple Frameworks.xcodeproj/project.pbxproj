@@ -11,6 +11,7 @@
 		9561754126A1887F0063032F /* SafariView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9561754026A1887F0063032F /* SafariView.swift */; };
 		9561754326A18B4F0063032F /* FrameworkTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9561754226A18B4F0063032F /* FrameworkTitleView.swift */; };
 		9561754526A18BAE0063032F /* XDismissButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9561754426A18BAE0063032F /* XDismissButton.swift */; };
+		95D5A77926DEB0ED0006856C /* FrameworkDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95D5A77826DEB0ED0006856C /* FrameworkDetailViewModel.swift */; };
 		95D809392681035500F34532 /* FrameworkDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95D809382681035500F34532 /* FrameworkDetailView.swift */; };
 		95D8093B2681051500F34532 /* AFButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95D8093A2681051500F34532 /* AFButton.swift */; };
 		95EE8B97268096AC00F4A53B /* Apple_FrameworksApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95EE8B96268096AC00F4A53B /* Apple_FrameworksApp.swift */; };
@@ -25,6 +26,7 @@
 		9561754026A1887F0063032F /* SafariView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariView.swift; sourceTree = "<group>"; };
 		9561754226A18B4F0063032F /* FrameworkTitleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameworkTitleView.swift; sourceTree = "<group>"; };
 		9561754426A18BAE0063032F /* XDismissButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XDismissButton.swift; sourceTree = "<group>"; };
+		95D5A77826DEB0ED0006856C /* FrameworkDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameworkDetailViewModel.swift; sourceTree = "<group>"; };
 		95D809382681035500F34532 /* FrameworkDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameworkDetailView.swift; sourceTree = "<group>"; };
 		95D8093A2681051500F34532 /* AFButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AFButton.swift; sourceTree = "<group>"; };
 		95EE8B93268096AC00F4A53B /* Apple Frameworks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Apple Frameworks.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -69,6 +71,7 @@
 			isa = PBXGroup;
 			children = (
 				95D809382681035500F34532 /* FrameworkDetailView.swift */,
+				95D5A77826DEB0ED0006856C /* FrameworkDetailViewModel.swift */,
 			);
 			path = FrameworkDetailView;
 			sourceTree = "<group>";
@@ -223,6 +226,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				95D5A77926DEB0ED0006856C /* FrameworkDetailViewModel.swift in Sources */,
 				95D809392681035500F34532 /* FrameworkDetailView.swift in Sources */,
 				95EE8BA82680980900F4A53B /* FrameworkGridView.swift in Sources */,
 				9561754526A18BAE0063032F /* XDismissButton.swift in Sources */,
@@ -364,7 +368,7 @@
 				DEVELOPMENT_TEAM = 8S8EJS2M66;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = "Apple Frameworks/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.7;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -386,7 +390,7 @@
 				DEVELOPMENT_TEAM = 8S8EJS2M66;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = "Apple Frameworks/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.7;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

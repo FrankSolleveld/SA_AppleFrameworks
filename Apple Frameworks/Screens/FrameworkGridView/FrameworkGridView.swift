@@ -15,13 +15,20 @@ struct FrameworkGridView: View {
 		NavigationView {
 			List {
 				ForEach(MockData.frameworks) { framework in
-					NavigationLink(destination: FrameworkDetailView(framework: framework, isShowingDetailView: $viewModel.isShowingDetailView)) {
-						FrameworkTitleView(framework: framework)
-					}
+                    FrameworkTitleView(framework: framework)
+                        .onTapGesture {
+                            viewModel.selectedFramework = framework
+                        }
 				}
 			}
-
 			.navigationTitle("🍏 Frameworks")
+            .sheet(isPresented: $viewModel.isShowingDetailView) {
+                FrameworkDetailView(
+                    viewModel: FrameworkDetailViewModel(
+                    framework: viewModel.selectedFramework!,
+                    isShowingDetailView: $viewModel.isShowingDetailView)
+                )
+            }
 		}
 		.accentColor(Color(.label))
 	}
